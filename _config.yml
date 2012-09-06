@@ -4,3 +4,15 @@ exclude:
 name: Phumbler
 baseurl: /
 permalink: /blog/:year/:month/:day/:title/
+
+tagline: Phumbler
+
+navigation:
+- text: Home
+  url: /
+  alt_url: /index.html
+  layout: default
+- text: About
+  url: /about/
+  alt_url: /about/index.html
+  layout: page
