@@ -1,0 +1,6 @@
+# Jekyll
+exclude:
+
+name: Phumbler
+baseurl: /
+permalink: /blog/:year/:month/:day/:title/
