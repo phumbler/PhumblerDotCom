@@ -1,14 +1,19 @@
-#sidebar .sidebar-iphone-block { position: relative; top:-20px;}
-#sidebar-screenshot { height:697px;}
+#sidebar .sidebar-iphone-block { position: relative; }
+
+#iphone_shell
+{
+  height:749px;
+  width:380px;
+}
 
 .screenshot_slide
 {
-  top:-611px;
-  left:-94px;
+  position:absolute;
+  top:138px;
+  left:31px;
   width:320px;
   height:480px;
   margin:auto;
-  margin-bottom:-640px;
 }
 
 .screenshot_slide img
