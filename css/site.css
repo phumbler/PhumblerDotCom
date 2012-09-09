@@ -3,18 +3,18 @@
 
 .screenshot_slide
 {
-    top:-611px;
-    left:-40px;
-    width:320px;
-    height:480px;
-    margin:auto;
-    margin-bottom:-640px;
+  top:-611px;
+  left:-94px;
+  width:320px;
+  height:480px;
+  margin:auto;
+  margin-bottom:-640px;
 }
 
 .screenshot_slide img
 {
-	width:320px;
-	height:480px;
+  width:320px;
+  height:480px;
 }
 
 body
