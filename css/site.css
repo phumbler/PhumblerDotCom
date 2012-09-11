@@ -26,3 +26,39 @@ body
 {
   background-image:url('../images/grey.png');
 }
+
+ul.thumbnails li.span4:nth-child(3n + 4) {
+  margin-left : 0px;
+}
+
+ul.thumbnails li.span3:nth-child(4n + 5) {
+  margin-left : 0px;
+}
+
+ul.thumbnails li.span12 + li {
+  margin-left : 0px;
+}
+
+div.thumbnail h6 {
+  text-align:center;
+}
+
+.bigtime h1 {
+  margin-bottom: 0;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: inherit;
+}
+
+.bigtime p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
+}
+
+.thumbnail {
+  background-color:white;
+}
+
