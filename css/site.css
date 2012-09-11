@@ -44,11 +44,11 @@ div.thumbnail h6 {
 }
 
 .bigtime h1 {
-  margin-bottom: 0;
   font-size: 60px;
-  line-height: 1;
+  line-height:72px;
   letter-spacing: -1px;
   color: inherit;
+  margin-top:0px;
 }
 
 .bigtime p {
