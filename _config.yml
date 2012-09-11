@@ -12,7 +12,6 @@ navigation:
   url: /
   alt_url: /index.html
   layout: default
-- text: About
-  url: /about/
-  alt_url: /about/index.html
-  layout: page
+- text: Support
+  url: mailto:support@phumbler.com
+  layout: none
