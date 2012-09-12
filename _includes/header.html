@@ -12,6 +12,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <meta property="og:tytle" content="Phumbler" />
+    <meta property="og:type" content="game" />
+    <meta property="og:url" content="http://www.phumbler.com" />
+    <meta property="og:image" content="http://www.phumbler.com/images/icon-72.png" />
+
     <!-- Le styles -->
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/site.css" rel="stylesheet">
@@ -38,6 +43,14 @@
   </head>
 
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -60,6 +73,11 @@
                   <a href="{{ link.url }}">{{ link.text }}</a>
                 </li>
                 {% endfor %}
+            </ul>
+            <ul class="nav pull-right">
+              <li class="pull-right">
+                <div class="fb-like" style="position:relative; top:10px" data-href="http://www.phumbler.com" data-send="true" data-layout="button_count" data-width="55" data-show-faces="false"></div>
+              </li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
