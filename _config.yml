@@ -1,5 +1,5 @@
 # Jekyll
-exclude:
+exclude: screenshot_sources
 
 name: Phumbler
 baseurl: /
