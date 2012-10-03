@@ -37,14 +37,6 @@ ul.thumbnails li.span4:nth-child(3n + 4) {
   margin-left : 0px;
 }
 
-ul.thumbnails li.span3:nth-child(4n + 5) {
-  margin-left : 0px;
-}
-
-ul.thumbnails li.span12 + li {
-  margin-left : 0px;
-}
-
 div.thumbnail h6 {
   text-align:center;
 }
@@ -94,13 +86,25 @@ div.thumbnail h6 {
   }
 }
 
+@media (max-width: 568px) {
+  ul.thumbnails li.span4 {
+    max-width:32%;
+    display:inline-block;
+    vertical-align:top;
+  }
+
+  .app_store {
+    margin-top:10px;
+  }
+}
+
 @media (max-width: 480px) {
   #sidebar .sidebar-iphone-block {
     width:240px;
   }
 
-  .app_store {
-    margin-top:10px;
+  ul.thumbnails li.span4 {
+    max-width:49%;
   }
 }
 
