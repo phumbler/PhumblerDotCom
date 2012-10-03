@@ -97,4 +97,23 @@ div.thumbnail h6 {
   #sidebar .sidebar-iphone-block {
     width:240px;
   }
+
+  .app_store {
+    margin-top:10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bigtime img {
+    display:none;
+  }
+
+  .bigtime .title-spacer {
+    display:none;
+  }
+
+  .app_store {
+    margin-top:10px;
+    width:240px;
+  }
 }
