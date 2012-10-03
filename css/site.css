@@ -86,7 +86,7 @@ div.thumbnail h6 {
   }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 767px) {
   ul.thumbnails li.span4 {
     max-width:32%;
     display:inline-block;
