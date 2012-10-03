@@ -66,6 +66,7 @@ div.thumbnail h6 {
 
 .thumbnail {
   background-color:white;
+  min-height:180px;
 }
 
 .app_store {
