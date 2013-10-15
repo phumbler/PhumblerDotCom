@@ -132,7 +132,7 @@ div.thumbnail h6 {
 }
 
 @media (max-width: 320px) {
-  .bigtime img {
+  .bigtime img.hideable {
     display:none;
   }
 
